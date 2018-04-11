@@ -152,6 +152,50 @@ footer {
   }
 }
 
-@@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 470px) {
+  .arrivalcontainer {
+    height: 15rem;
+  }
 
+  .arrivalbanner {
+    margin-top: 10rem;
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+
+  .arrivalbanner h1 {
+    font-size: 1rem;
+  }
+
+  .arrivalbanner p {
+    font-size: 0.77rem;
+  }
+
+  .product2 {
+    display: none;
+  }
+
+  .imagecontainer {
+    width: 90%;
+  }
+
+  .productcontainer {
+    justify-content: center;
+  }
+
+  .infocontainer {
+    flex-direction: column;
+  }
+
+  .infocontentcontainer {
+    width: 90%;
+  }
+
+  .pad {
+    padding-bottom: 0.5rem;
+  }
+
+  .footer {
+    justify-content: center;
+  }
 }

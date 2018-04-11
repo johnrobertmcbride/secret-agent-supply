@@ -2,6 +2,24 @@ header, div, footer {
   border: 1px solid
 }
 
+html {
+  font-size: 18px;
+  font-family: helvetica;
+  background-color: black;
+  color: white;
+}
+
 .section {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+  align-items: center;
+}
+
+.productcontainer, .infocontainer {
   display: flex;
 }

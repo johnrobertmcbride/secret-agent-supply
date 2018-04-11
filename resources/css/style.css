@@ -9,6 +9,10 @@ html {
   color: white;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 .section {
   display: flex;
   justify-content: center;
@@ -18,6 +22,50 @@ html {
   display: flex;
   width: 960px;
   align-items: center;
+}
+
+.logo {
+  height: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+header span {
+  padding: 0.66rem 0.5rem;
+}
+
+.arrival {
+  background-image: url(../images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.arrivalcontainer {
+  width: 960px;
+  height: 25rem;
+}
+
+.arrivalbanner {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9rem;
+  background-color: black;
+  padding: 2rem 3rem;
+  width: 25rem;
+  font-weight: bold;
+}
+
+.arrivalbanner p {
+  padding-bottom: 0.25rem;
+}
+
+.navigation {
+  background-color: firebrick;
+}
+
+.navigationcontainer {
+  justify-content: space-between;
+  padding: 0.75rem 0rem;
 }
 
 .productcontainer, .infocontainer {

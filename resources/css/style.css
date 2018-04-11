@@ -1,0 +1,7 @@
+header, div, footer {
+  border: 1px solid
+}
+
+.section {
+  display: flex;
+}

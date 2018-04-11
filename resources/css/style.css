@@ -64,6 +64,10 @@ header span {
   padding: 0.75rem 0rem;
 }
 
+.smallmenu {
+  display: none;
+}
+
 .product {
   background-color: white;
 }
@@ -124,4 +128,30 @@ header span {
 
 footer {
   height: 5rem;
+}
+
+@media only screen and (max-width:1024px) {
+  .product3 {
+    display: none;
+  }
+
+  .imagecontainer {
+    width: 47%;
+  }
+
+  .largemenu {
+    display: none;
+  }
+
+  .smallmenu {
+    display: block;
+  }
+
+  .navigationcontainer {
+    justify-content: center;
+  }
+}
+
+@@media only screen and (max-width: 470px) {
+
 }
